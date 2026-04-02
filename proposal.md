@@ -3,7 +3,7 @@
 ## Grupo
 ### Integrantes
 * legajo - Apellido(s), Nombre(s)
-
+* 51021 . Vera , Agostina
 ### Repositorios
 * [frontend app](http://hyperlinkToGihubOrGitlab)
 * [backend app](http://hyperlinkToGihubOrGitlab)
@@ -11,7 +11,7 @@
 
 ## Tema
 ### Descripción
-*2 a 6 líneas describiendo el negocio (menos es más)*
+Aplicación web de compra de entradas de cine donde los usuarios pueden registrarse, consultar películas y funciones disponibles, seleccionar asientos y realizar compras. Los administradores pueden gestionar películas, salas y funciones para mantener actualizada la cartelera
 
 ### Modelo
 ![imagen del modelo]()
