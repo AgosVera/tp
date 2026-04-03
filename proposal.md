@@ -2,8 +2,8 @@
 
 ## Grupo
 ### Integrantes
-*51021 - Vera, Agostina
-*51766 - Collaud Maria Victoria
+51021 - Vera, Agostina<br>
+51766 - Collaud Maria Victoria
 
 ### Repositorios
 * [frontend app](http://hyperlinkToGihubOrGitlab)
@@ -17,7 +17,7 @@
 ### Modelo
 ![imagen del modelo]()
 
-*https://drive.google.com/file/d/1OrZGkEuhjiOYSzRDrfIRpjYnOHMHgxqs/view?usp=sharing)
+https://drive.google.com/file/d/1OrZGkEuhjiOYSzRDrfIRpjYnOHMHgxqs/view?usp=sharing
 
 ## Alcance Funcional 
 
