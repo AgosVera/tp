@@ -19,6 +19,7 @@ Página de un cine que gestiona la compra de entradas y  donde los usuarios pued
 ### Modelo
 ![imagen del modelo](<img width="1089" height="566" alt="dsw cine drawio" src="https://github.com/user-attachments/assets/2c27b864-81f3-493f-95ea-b20e7a82525f" />
 )
+<img width="1089" height="566" alt="dsw cine drawio" src="https://github.com/user-attachments/assets/bf49cb03-8cff-4e98-850d-287ae3cc0d73" />
 
 https://drive.google.com/file/d/1OrZGkEuhjiOYSzRDrfIRpjYnOHMHgxqs/view?usp=sharing
 
