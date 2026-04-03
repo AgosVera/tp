@@ -17,7 +17,8 @@ Página de cine
 Página de un cine que gestiona la compra de entradas y  donde los usuarios pueden registrarse, consultar películas y sus funciones. Los administradores pueden gestionar películas, salas y funciones para mantener actualizada la cartelera.
 
 ### Modelo
-![imagen del modelo](<img width="1089" height="566" alt="dsw cine drawio" src="https://github.com/user-attachments/assets/ba304ff1-7bda-4349-988c-bc7a033b6fd2" />)
+![imagen del modelo](<img width="1089" height="566" alt="dsw cine drawio" src="https://github.com/user-attachments/assets/2c27b864-81f3-493f-95ea-b20e7a82525f" />
+)
 
 https://drive.google.com/file/d/1OrZGkEuhjiOYSzRDrfIRpjYnOHMHgxqs/view?usp=sharing
 
