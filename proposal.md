@@ -41,7 +41,7 @@ Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
 |CRUD |1. CRUD Película<br>2. CRUD Sala<br>3. CRUD Función<br>4. CRUD Usuario<br>5. CRUD Compra/Entrada|
-|CUU/Epic|1. Comprar una entrada para una función<br>2. Administrar funciones disponibles de una película<br>3. Administrar películas<br>4. Recomendar películas|
+|CUU/Epic|1. Comprar entradas para una función<br>2. Administrar funciones disponibles de una película<br>3. Administrar películas<br>4. Recomendar películas|
 
 
 ### Alcance Adicional Voluntario
