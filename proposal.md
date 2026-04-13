@@ -17,9 +17,8 @@ Página de cine
 Página de un cine que gestiona la compra de entradas y  donde los usuarios pueden registrarse, consultar películas y sus funciones. Los administradores pueden gestionar películas, salas y funciones para mantener actualizada la cartelera.
 
 ### Modelo
-![imagen del modelo](<img width="1089" height="566" alt="dsw cine drawio" src="https://github.com/user-attachments/assets/2c27b864-81f3-493f-95ea-b20e7a82525f" />
-)
-<img width="1089" height="566" alt="dsw cine drawio" src="https://github.com/user-attachments/assets/bf49cb03-8cff-4e98-850d-287ae3cc0d73" />
+![imagen del modelo]
+<img width="1090" height="559" alt="dsw cine drawio" src="https://github.com/user-attachments/assets/53d5016b-a4db-40aa-89f7-1ae23998051b" />
 
 https://drive.google.com/file/d/1OrZGkEuhjiOYSzRDrfIRpjYnOHMHgxqs/view?usp=sharing
 
@@ -31,8 +30,8 @@ https://drive.google.com/file/d/1OrZGkEuhjiOYSzRDrfIRpjYnOHMHgxqs/view?usp=shari
 Regularidad:
 |Req|Detalle|
 |:-|:-|
-|CRUD simple|1. CRUD Película<br>2. CRUD Sala|
-|CRUD dependiente|1. CRUD Función {depende de} CRUD Película y CRUD Sala|
+|CRUD simple|1. CRUD Género<br>2. CRUD Sala|
+|CRUD dependiente|1. CRUD Función {depende de} CRUD Película y CRUD Sala<br>2. CRUD Película {depende de} CRUD género|
 |Listado<br>+<br>detalle| 1. Listado de películas filtrado por género o nombre, muestra título, género y clasificación => detalle CRUD Película con sinopsis, duración y funciones disponibles<br> 2. Listado de funciones filtrado por fecha, muestra película, sala, horario y precio => detalle CRUD Función con datos completos y asientos disponibles|
 |CUU/Epic|1. Comprar entradas para una función<br>2. Administrar funciones disponibles de una película (idioma, horario, sala, disponibilidad, tipo (2d,3d)|
 
