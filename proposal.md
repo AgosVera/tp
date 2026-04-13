@@ -17,7 +17,7 @@ Página de cine
 Página de un cine que gestiona la compra de entradas y  donde los usuarios pueden registrarse, consultar películas y sus funciones. Los administradores pueden gestionar películas, salas y funciones para mantener actualizada la cartelera.
 
 ### Modelo
-![imagen del modelo]
+
 <img width="1090" height="559" alt="dsw cine drawio" src="https://github.com/user-attachments/assets/53d5016b-a4db-40aa-89f7-1ae23998051b" />
 
 https://drive.google.com/file/d/1OrZGkEuhjiOYSzRDrfIRpjYnOHMHgxqs/view?usp=sharing
@@ -39,7 +39,7 @@ Regularidad:
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
-|CRUD |1. CRUD Película<br>2. CRUD Sala<br>3. CRUD Función<br>4. CRUD Usuario<br>5. CRUD Compra/Entrada|
+|CRUD |1. CRUD Película<br>2. CRUD Sala<br>3. CRUD Función<br>4. CRUD Usuario<br>5. CRUD Compra/Entrada<br>6. CRUD Género|
 |CUU/Epic|1. Comprar entradas para una función<br>2. Administrar funciones disponibles de una película<br>3. Administrar películas<br>4. Recomendar películas|
 
 
