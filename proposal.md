@@ -24,28 +24,54 @@
 ### Alcance Mínimo
 
 Regularidad:
-|Req|Detalle|
-|:-|:-|
-|CRUD simple|1. CRUD Tipo Habitacion<br>2. CRUD Servicio<br>3. CRUD Localidad|
-|CRUD dependiente|1. CRUD Habitación {depende de} CRUD Tipo Habitacion<br>2. CRUD Cliente {depende de} CRUD Localidad|
-|Listado<br>+<br>detalle| 1. Listado de habitaciones filtrado por tipo de habitación, muestra nro y tipo de habitación => detalle CRUD Habitacion<br> 2. Listado de reservas filtrado por rango de fecha, muestra nro de habitación, fecha inicio y fin estadía, estado y nombre del cliente => detalle muestra datos completos de la reserva y del cliente|
-|CUU/Epic|1. Reservar una habitación para la estadía<br>2. Realizar el check-in de una reserva|
+Regularidad
+Req
+Detalle
+CRUD simple
+1. CRUD Película
+2. CRUD Sala
+CRUD dependiente
+1. CRUD Función {depende de} CRUD Película y CRUD Sala
+Listado + detalle
+1. Listado de películas filtrado por género o nombre, muestra título, género y clasificación => detalle CRUD Película con sinopsis, duración y funciones disponibles
+2. Listado de funciones filtrado por fecha, muestra película, sala, horario y precio => detalle CRUD Función con datos completos y asientos disponibles
+CUU/Epic
+1. Comprar una entrada para una función
+2. Administrar funciones disponibles de una película (idioma , horario, sala,disponibilidad, tipo (2d,3d)
+3. Administrar películas
 
 
 Adicionales para Aprobación
-|Req|Detalle|
-|:-|:-|
-|CRUD |1. CRUD Tipo Habitacion<br>2. CRUD Servicio<br>3. CRUD Localidad<br>4. CRUD Provincia<br>5. CRUD Habitación<br>6. CRUD Empleado<br>7. CRUD Cliente|
-|CUU/Epic|1. Reservar una habitación para la estadía<br>2. Realizar el check-in de una reserva<br>3. Realizar el check-out y facturación de estadía y servicios|
+Req
+Detalle
+CRUD
+1. CRUD Película
+2. CRUD Sala
+3. CRUD Función
+4. CRUD Usuario
+5. CRUD Compra / Entrada
+CUU/Epic
+1. Comprar una entrada para una función
+2. Administrar funciones disponibles de una película
+3. Administrar películas
+
+
+
 
 
 ### Alcance Adicional Voluntario
+Alcance Adicional Voluntario
+Req
+Detalle
+Listados
+1. Listado de compras filtrado por usuario o fecha, muestra película, función, cantidad de entradas y tota 
+2. Listado de funciones del día filtrado por película o sala, muestra horario, sala y cantidad de asientos disponibles
+CUU/Epic
+1. Cancelar una compra antes del horario de la función
+2. Seleccionar asientos específicos dentro de la sala
+Otros
+1. Envío de comprobante por email
+2. Generación de QR para la entrada
+3. Dashboard de administrador con estadísticas de ventas
 
-*Nota*: El Alcance Adicional Voluntario es opcional, pero ayuda a que la funcionalidad del sistema esté completa y será considerado en la nota en función de su complejidad y esfuerzo.
-
-|Req|Detalle|
-|:-|:-|
-|Listados |1. Estadía del día filtrado por fecha muestra, cliente, habitaciones y estado <br>2. Reservas filtradas por cliente muestra datos del cliente y de cada reserve fechas, estado cantidad de habitaciones y huespedes|
-|CUU/Epic|1. Consumir servicios<br>2. Cancelación de reserva|
-|Otros|1. Envío de recordatorio de reserva por email|
 
