@@ -23,55 +23,34 @@
 
 ### Alcance Mínimo
 
-Regularidad:
+### Regularidad:
 Regularidad
-Req
-Detalle
-CRUD simple
-1. CRUD Película
-2. CRUD Sala
-CRUD dependiente
-1. CRUD Función {depende de} CRUD Película y CRUD Sala
-Listado + detalle
-1. Listado de películas filtrado por género o nombre, muestra título, género y clasificación => detalle CRUD Película con sinopsis, duración y funciones disponibles
-2. Listado de funciones filtrado por fecha, muestra película, sala, horario y precio => detalle CRUD Función con datos completos y asientos disponibles
-CUU/Epic
-1. Comprar una entrada para una función
-2. Administrar funciones disponibles de una película (idioma , horario, sala,disponibilidad, tipo (2d,3d)
-3. Administrar películas
+|Req|Detalle|
+|:-|:-|
+|CRUD simple|1. CRUD Película<br>2. CRUD Sala|
+|CRUD dependiente|1. CRUD Función {depende de} CRUD Película y CRUD Sala|
+|Listado<br>+<br>detalle|1. Listado de películas filtrado por género o nombre, muestra título, género y clasificación => detalle CRUD Película con sinopsis, duración y funciones disponibles<br>2. Listado de funciones filtrado por fecha, muestra película, sala, horario y precio => detalle CRUD Función con datos completos y asientos disponibles(?)|
+|CUU/Epic|1. Comprar una entrada para una función<br>2. Administrar funciones disponibles de una película (idioma , horario, sala,disponibilidad, tipo (2d,3d)<br>3. Administrar películas|
 
 
-Adicionales para Aprobación
-Req
-Detalle
-CRUD
-1. CRUD Película
-2. CRUD Sala
-3. CRUD Función
-4. CRUD Usuario
-5. CRUD Compra / Entrada
-CUU/Epic
-1. Comprar una entrada para una función
-2. Administrar funciones disponibles de una película
-3. Administrar películas
+
+
+### Adicionales para Aprobación
+|Req|Detalle|
+|:-|:-
+|CRUD |1. CRUD Película<br> 2. CRUD Sala <br>3. CRUD Función<br>4. CRUD Usuario<br>5. CRUD Compra / Entrada|
+|CUU/Epic|1. Comprar una entrada para una función<br>2. Administrar funciones disponibles de una película|
+
 
 
 
 
 
 ### Alcance Adicional Voluntario
-Alcance Adicional Voluntario
-Req
-Detalle
-Listados
-1. Listado de compras filtrado por usuario o fecha, muestra película, función, cantidad de entradas y tota 
-2. Listado de funciones del día filtrado por película o sala, muestra horario, sala y cantidad de asientos disponibles
-CUU/Epic
-1. Cancelar una compra antes del horario de la función
-2. Seleccionar asientos específicos dentro de la sala
-Otros
-1. Envío de comprobante por email
-2. Generación de QR para la entrada
-3. Dashboard de administrador con estadísticas de ventas
+|Req|Detalle|
+|:-|:-|
+|Listados|1. Listado de compras filtrado por usuario o fecha, muestra película, función, cantidad de entradas y tota<br>2. Listado de funciones del día filtrado por película o sala, muestra horario, sala y cantidad de asientos disponibles|
+|CUU/Epic|1. Cancelar una compra antes del horario de la función<br>2. Seleccionar asientos específicos dentro de la sala|
+|Otros|1. Envío de comprobante por email<br>2. Generación de QR para la entrada<br>3. Dashboard de administrador con estadísticas de ventas|
 
 
