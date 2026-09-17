@@ -27,7 +27,7 @@
 Regularidad
 |Req|Detalle|
 |:-|:-|
-|CRUD simple|1. CRUD Género<br>2. CRUD Sala|
+|CRUD simple|1. CRUD Género<br>2. CRUD Sala 3.CRUD Película |
 |CRUD dependiente|1. CRUD Función {depende de} CRUD Película y CRUD Sala|
 |Listado<br>+<br>detalle|1. Listado de películas filtrado por género o nombre, muestra título, género y clasificación => detalle CRUD Película con sinopsis, duración y funciones disponibles|
 |CUU/Epic|1. Comprar  entradas para una función<br>2. Administrar funciones disponibles de una película (idioma , horario, sala,disponibilidad, tipo (2d,3d)<br>3. Administrar películas|
