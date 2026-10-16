@@ -16,7 +16,8 @@
 ### Modelo
 <!--imagen del modelo(https://drive.google.com/file/d/1OrZGkEuhjiOYSzRDrfIRpjYnOHMHgxqs/view); -->
 
-<img width="1089" height="559" alt="dsw cine drawio (1)" src="https://github.com/user-attachments/assets/cca08a9f-d362-41c4-b044-f7d50c0804c2" />
+<img width="1990" height="1062" alt="image" src="https://github.com/user-attachments/assets/e567a1d4-c086-47b1-b8eb-7bf1f396d764" />
+
 
 
 ## Alcance Funcional 
@@ -30,7 +31,7 @@ Regularidad
 |CRUD simple|1. CRUD Género<br>2. CRUD Sala <br>3.CRUD Película<br>4.CRUD Compra / Entrada |
 |CRUD dependiente|1. CRUD Función {depende de} CRUD Película y CRUD Sala|
 |Listado<br>+<br>detalle|1. Listado de películas filtrado por género o nombre, muestra título, género y clasificación => detalle CRUD Película con sinopsis, duración y funciones disponibles|
-|CUU/Epic|1. Comprar  entradas para una función<br>2. Administrar funciones disponibles de una película (idioma , horario, sala,disponibilidad, tipo (2d,3d)<br>3. Administrar películas|
+|CUU/Epic|1. Comprar  entradas para una función<br>2. Administrar funciones disponibles de una película (idioma , horario, sala,disponibilidad, tipo (2d,3d)|
 
 
 
@@ -39,7 +40,7 @@ Regularidad
 |Req|Detalle|
 |:-|:-
 |CRUD |1. CRUD Película<br> 2. CRUD Sala <br>3. CRUD Función<br>4. CRUD Usuario<br>5. CRUD Compra / Entrada<br>6. CRUD Género|
-|CUU/Epic|1. Comprar  entradas para una función<br>2. Administrar funciones disponibles de una película<br>3. Administrar películas|
+|CUU/Epic|1. Comprar  entradas para una función<br>2. Administrar funciones disponibles de una película<br>3. Administrar películas<br>4. Recomendar películas|
 
 
 
