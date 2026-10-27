@@ -1,4 +1,4 @@
-# 🎬 NewCine 
+# NewCine 
 
 Bienvenido al proyecto **NewCine**. Esta es una aplicación web completa para gestionar un cine, que incluye cartelera pública para los clientes, compra de entradas, y un panel de administración para gestionar películas, salas, funciones, géneros y ventas.
 
