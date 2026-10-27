@@ -20,23 +20,44 @@ Antes de instalar, asegurate de tener las siguientes herramientas instaladas en 
 
 ## Instalación paso a paso
 
-Las dependencias principales son:
+### Dependencias del Backend
+
+El backend está construido con Node.js, Express y TypeScript. Las dependencias principales son:
 
 *   **Framework y Servidor:**
     *   `express`: Framework web para crear la API REST.
     *   `cors`: Middleware para permitir peticiones desde el frontend (CORS).
 *   **Base de Datos (ORM):**
     *   `@mikro-orm/core`: Núcleo del ORM MikroORM.
-    *   `@mikro-orm/postgresql` (o `mysql` / `sqlite` según uses): Driver de conexión a la base de datos.
-    *   `@mikro-orm/reflection`: Motor de reflexión para TypeScript.
-    *   `reflect-metadata`: Requerido por MikroORM para decoradores.
+    *   `@mikro-orm/decorators`: Decoradores para definir entidades con TypeScript.
+    *   `@mikro-orm/mysql`: Driver oficial de conexión a la base de datos MySQL.
+    *   `@mikro-orm/sql-highlighter`: Herramienta para resaltar y depurar las consultas SQL.
+    *   `reflect-metadata`: Requerido por MikroORM para el uso de decoradores.
 *   **Autenticación y Seguridad:**
     *   `jsonwebtoken`: Para generar y validar tokens JWT.
     *   `bcrypt`: Para encriptar (hashear) contraseñas.
-*   **Entorno y Configuración:**
-    *   `dotenv`: Para leer variables de entorno desde el archivo `.env`.
+*   **Herramientas de Desarrollo (DevDependencies):**
+    *   `typescript`: Compilador de TypeScript a JavaScript.
+    *   `tsc-watch`: Para reiniciar el servidor automáticamente al guardar cambios.
+    *   `@types/express`, `@types/cors`, `@types/bcrypt`, `@types/jsonwebtoken`, `@types/node`: Definiciones de tipos para TypeScript.
 
-*(Para instalar todas estas dependencias de una sola vez, ejecutá `pnpm install` dentro de la carpeta del backend).*
+*(Nota: Para instalar todas estas dependencias de una sola vez, ejecutá `pnpm install` dentro de la carpeta `dsw-backend`).*
+
+### Dependencias del Frontend
+
+El frontend está construido con React y TypeScript, utilizando Vite como empaquetador. Las dependencias principales son:
+
+*   **Librerías Principales (Dependencies):**
+    *   `react` y `react-dom`: Biblioteca principal para construir la interfaz de usuario.
+    *   `react-router-dom`: Para manejar la navegación entre páginas sin recargar el navegador.
+*   **Herramientas de Desarrollo (DevDependencies):**
+    *   `vite`: Empaquetador y servidor de desarrollo ultrarrápido.
+    *   `typescript`: Lenguaje que añade tipado estático a JavaScript.
+    *   `@vitejs/plugin-react`: Plugin oficial de React para Vite.
+    *   `eslint` y sus plugins (`@eslint/js`, `eslint-plugin-react-hooks`, etc.): Herramientas de análisis de código para mantener buenas prácticas.
+    *   `@types/react`, `@types/react-dom`, `@types/node`: Definiciones de tipos para TypeScript.
+
+*(Nota: Para instalar todas estas dependencias de una sola vez, ejecutá `pnpm install` dentro de la carpeta `cine-frontend`).*
 
 ### Configuración de Variables de Entorno (`.env`)
 
@@ -88,8 +109,23 @@ Para poner en marcha la aplicación, abrí **dos terminales distintas** (una par
     ```bash
     cd cine-frontend
 2. Instalá todas las dependencias
-
-3. Iniciá la aplicación
+   ```bash
+   pnpm install
+4. Iniciá la aplicación
     ```bash
     pnpm dev
-4. Abrí tu navegador web y entrá a la siguiente dirección: http://localhost:5173
+5. Abrí tu navegador web y entrá a la siguiente dirección: http://localhost:5173
+
+##  Roles y Acceso
+
+La aplicación cuenta con dos niveles de acceso:
+
+*   **Cliente (Público):** Puede ver la cartelera, buscar películas, ver detalles, ver trailers y comprar entradas (requiere registrarse previamente).
+*   **Administrador:** Tiene acceso al panel de administración para crear/editar/eliminar Salas, Películas, Géneros y Funciones, y ver las compras realizadas.
+
+**Datos del Administrador (creados con el `seed:admin`):**
+
+*   **Email:** `admin@test.com`
+*   **Contraseña:** `admin123` 
+
+*(Si no se ejecutó el seed, podés registrarte como cliente desde la web y luego modificar tu rol directamente en la base de datos a `ADMIN`).*
