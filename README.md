@@ -35,13 +35,15 @@ El backend está construido con Node.js, Express y TypeScript. Las dependencias 
     *   `reflect-metadata`: Requerido por MikroORM para el uso de decoradores.
 *   **Autenticación y Seguridad:**
     *   `jsonwebtoken`: Para generar y validar tokens JWT.
-    *   `bcrypt`: Para encriptar (hashear) contraseñas.
+    *   `bcryptjs`: Para encriptar (hashear) contraseñas.
+*   **Generación de Códigos QR:**
+    *   `qrcode`: Para generar los códigos QR de las entradas compradas.
 *   **Herramientas de Desarrollo (DevDependencies):**
     *   `typescript`: Compilador de TypeScript a JavaScript.
     *   `tsc-watch`: Para reiniciar el servidor automáticamente al guardar cambios.
-    *   `@types/express`, `@types/cors`, `@types/bcrypt`, `@types/jsonwebtoken`, `@types/node`: Definiciones de tipos para TypeScript.
-
-*(Nota: Para instalar todas estas dependencias de una sola vez, ejecutá `pnpm install` dentro de la carpeta `dsw-backend`).*
+    *   `vitest` y `supertest`: Herramientas para ejecutar tests unitarios y de integración.
+    *   `@types/express`, `@types/cors`, `@types/bcryptjs`, `@types/jsonwebtoken`, `@types/node`, `@types/qrcode`, `@types/supertest`: Definiciones de tipos para TypeScript.
+*(Para instalar todas estas dependencias, ejecutá `pnpm install` dentro de la carpeta `dsw-backend`).*
 
 ### Dependencias del Frontend
 
@@ -50,14 +52,16 @@ El frontend está construido con React y TypeScript, utilizando Vite como empaqu
 *   **Librerías Principales (Dependencies):**
     *   `react` y `react-dom`: Biblioteca principal para construir la interfaz de usuario.
     *   `react-router-dom`: Para manejar la navegación entre páginas sin recargar el navegador.
-*   **Herramientas de Desarrollo (DevDependencies):**
+    *   `sweetalert2`: Para mostrar alertas y modales elegantes (reemplazando los `alert()` nativos).
+*   **Herramientas de Desarrollo y testing (DevDependencies):**
     *   `vite`: Empaquetador y servidor de desarrollo ultrarrápido.
     *   `typescript`: Lenguaje que añade tipado estático a JavaScript.
     *   `@vitejs/plugin-react`: Plugin oficial de React para Vite.
     *   `eslint` y sus plugins (`@eslint/js`, `eslint-plugin-react-hooks`, etc.): Herramientas de análisis de código para mantener buenas prácticas.
     *   `@types/react`, `@types/react-dom`, `@types/node`: Definiciones de tipos para TypeScript.
-
-*(Nota: Para instalar todas estas dependencias de una sola vez, ejecutá `pnpm install` dentro de la carpeta `cine-frontend`).*
+    *   **Testing Unitario:** `vitest`, `@testing-library/react`, `@testing-library/jest-dom`, `@testing-library/user-event`, `jsdom`.
+    *   **Testing E2E:** `@playwright/test`.
+*(Nota: Para instalar todas estas dependencias, ejecutá `pnpm install` dentro de la carpeta `cine-frontend`).*
 
 ### Configuración de Variables de Entorno (`.env`)
 
