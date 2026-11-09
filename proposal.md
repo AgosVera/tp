@@ -50,7 +50,7 @@ Regularidad
 ### Alcance Adicional Voluntario
 |Req|Detalle|
 |:-|:-|
-|Listados|1. Listado de compras filtrado por usuario o fecha, muestra película, función, cantidad de entradas y tota<br>2. Listado de funciones del día filtrado por película o sala, muestra horario, sala y cantidad de asientos disponibles|
+|Listados|1. Listado de compras filtrado por usuario o fecha, muestra película, función, cantidad de entradas y total<br>2. Listado de funciones del día filtrado por película o sala, muestra horario, sala y cantidad de asientos disponibles|
 |CUU/Epic|1. Seleccionar asientos específicos dentro de la sala|
 |Otros|1. Envío de comprobante por email<br>2. Generación de QR para la entrada<br>3. Dashboard de administrador con estadísticas de ventas|
 
