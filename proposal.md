@@ -6,7 +6,7 @@
 51766 - Collaud Maria Victoria
 
 ### Repositorios
-* [frontend app](http://hyperlinkToGihubOrGitlab)
+* [frontend app](https://github.com/Victoria-Collaud/dsw-frontend)
 * [backend app](https://github.com/Victoria-Collaud/dsw-backend)
 
 ## Tema
@@ -17,6 +17,7 @@
 <!--imagen del modelo(https://drive.google.com/file/d/1OrZGkEuhjiOYSzRDrfIRpjYnOHMHgxqs/view); -->
 
 <img width="1990" height="1062" alt="image" src="https://github.com/user-attachments/assets/e567a1d4-c086-47b1-b8eb-7bf1f396d764" />
+[https://drive.google.com/drive/u/0/home](https://app.diagrams.net/#G1OrZGkEuhjiOYSzRDrfIRpjYnOHMHgxqs#%7B%22pageId%22%3A%22GNqIutAQHUyImfBTj5YL%22%7D)
 
 
 
