@@ -15,9 +15,8 @@
 
 ### Modelo
 <!--imagen del modelo(https://drive.google.com/file/d/1OrZGkEuhjiOYSzRDrfIRpjYnOHMHgxqs/view); -->
-
-<img width="1990" height="1062" alt="image" src="https://github.com/user-attachments/assets/e567a1d4-c086-47b1-b8eb-7bf1f396d764" />
-[https://drive.google.com/drive/u/0/home](https://app.diagrams.net/#G1OrZGkEuhjiOYSzRDrfIRpjYnOHMHgxqs#%7B%22pageId%22%3A%22GNqIutAQHUyImfBTj5YL%22%7D)
+<img width="1992" height="1060" alt="DER-cine" src="https://github.com/user-attachments/assets/06114639-b176-467f-8567-d8e56979506a" />
+https://app.diagrams.net/#G1OrZGkEuhjiOYSzRDrfIRpjYnOHMHgxqs#%7B%22pageId%22%3A%22GNqIutAQHUyImfBTj5YL%22%7D
 
 
 
