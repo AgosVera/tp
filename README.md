@@ -133,3 +133,7 @@ La aplicación cuenta con dos niveles de acceso:
 *   **Contraseña:** `admin123` 
 
 *(Si no se ejecutó el seed, podés registrarte como cliente desde la web y luego modificar tu rol directamente en la base de datos a `ADMIN`).*
+
+### Comandos de Testing
+*   **Backend:** `pnpm test` (unitarios e integración).
+*   **Frontend:** `pnpm testunitario` (unitarios con Vitest) y `npx playwright test` (E2E).
